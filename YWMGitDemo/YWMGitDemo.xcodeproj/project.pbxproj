@@ -16,6 +16,7 @@
 		12BA9532253D278300B1A4B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BA9531253D278300B1A4B4 /* main.m */; };
 		12E1745E253D2BDD00E5E9B3 /* YWMPerson001.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E1745D253D2BDD00E5E9B3 /* YWMPerson001.m */; };
 		12E17461253D2BEE00E5E9B3 /* YWMPerson002.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E17460253D2BEE00E5E9B3 /* YWMPerson002.m */; };
+		E0C7606A2FFFABF640CEB8ED /* Pods_YWMGitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7416297EB23CACF4C3E13883 /* Pods_YWMGitDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,9 @@
 		12E1745D253D2BDD00E5E9B3 /* YWMPerson001.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWMPerson001.m; sourceTree = "<group>"; };
 		12E1745F253D2BEE00E5E9B3 /* YWMPerson002.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWMPerson002.h; sourceTree = "<group>"; };
 		12E17460253D2BEE00E5E9B3 /* YWMPerson002.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWMPerson002.m; sourceTree = "<group>"; };
+		481880D7E25B0F562BCED44E /* Pods-YWMGitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWMGitDemo.debug.xcconfig"; path = "Target Support Files/Pods-YWMGitDemo/Pods-YWMGitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		49B0BDFC89479F53E80417FE /* Pods-YWMGitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWMGitDemo.release.xcconfig"; path = "Target Support Files/Pods-YWMGitDemo/Pods-YWMGitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7416297EB23CACF4C3E13883 /* Pods_YWMGitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWMGitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C7606A2FFFABF640CEB8ED /* Pods_YWMGitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +58,8 @@
 			children = (
 				12BA951E253D278000B1A4B4 /* YWMGitDemo */,
 				12BA951D253D278000B1A4B4 /* Products */,
+				81D2A468CA1ADD800FAB29DE /* Pods */,
+				86B1BC97217E1DC0329DA004 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +109,24 @@
 			name = 002;
 			sourceTree = "<group>";
 		};
+		81D2A468CA1ADD800FAB29DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				481880D7E25B0F562BCED44E /* Pods-YWMGitDemo.debug.xcconfig */,
+				49B0BDFC89479F53E80417FE /* Pods-YWMGitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		86B1BC97217E1DC0329DA004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7416297EB23CACF4C3E13883 /* Pods_YWMGitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12BA9535253D278300B1A4B4 /* Build configuration list for PBXNativeTarget "YWMGitDemo" */;
 			buildPhases = (
+				CAF1E5C7A4B0BE8F5494A1FF /* [CP] Check Pods Manifest.lock */,
 				12BA9518253D278000B1A4B4 /* Sources */,
 				12BA9519253D278000B1A4B4 /* Frameworks */,
 				12BA951A253D278000B1A4B4 /* Resources */,
+				7C34418E64E74A4310B336F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,6 +193,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C34418E64E74A4310B336F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YWMGitDemo/Pods-YWMGitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YWMGitDemo/Pods-YWMGitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YWMGitDemo/Pods-YWMGitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAF1E5C7A4B0BE8F5494A1FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YWMGitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12BA9518253D278000B1A4B4 /* Sources */ = {
@@ -315,6 +384,7 @@
 		};
 		12BA9536253D278300B1A4B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 481880D7E25B0F562BCED44E /* Pods-YWMGitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -332,6 +402,7 @@
 		};
 		12BA9537253D278300B1A4B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B0BDFC89479F53E80417FE /* Pods-YWMGitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
