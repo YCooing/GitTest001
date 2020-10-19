@@ -14,6 +14,8 @@
 		12BA952C253D278300B1A4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BA952B253D278300B1A4B4 /* Assets.xcassets */; };
 		12BA952F253D278300B1A4B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12BA952D253D278300B1A4B4 /* LaunchScreen.storyboard */; };
 		12BA9532253D278300B1A4B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BA9531253D278300B1A4B4 /* main.m */; };
+		12E1745E253D2BDD00E5E9B3 /* YWMPerson001.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E1745D253D2BDD00E5E9B3 /* YWMPerson001.m */; };
+		12E17461253D2BEE00E5E9B3 /* YWMPerson002.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E17460253D2BEE00E5E9B3 /* YWMPerson002.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		12BA952E253D278300B1A4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12BA9530253D278300B1A4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12BA9531253D278300B1A4B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12E1745C253D2BDD00E5E9B3 /* YWMPerson001.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWMPerson001.h; sourceTree = "<group>"; };
+		12E1745D253D2BDD00E5E9B3 /* YWMPerson001.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWMPerson001.m; sourceTree = "<group>"; };
+		12E1745F253D2BEE00E5E9B3 /* YWMPerson002.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWMPerson002.h; sourceTree = "<group>"; };
+		12E17460253D2BEE00E5E9B3 /* YWMPerson002.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWMPerson002.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,8 @@
 				12BA9523253D278000B1A4B4 /* SceneDelegate.m */,
 				12BA9525253D278000B1A4B4 /* ViewController.h */,
 				12BA9526253D278000B1A4B4 /* ViewController.m */,
+				12E17458253D2AEC00E5E9B3 /* 001 */,
+				12E1745B253D2B7700E5E9B3 /* 002 */,
 				12BA9528253D278000B1A4B4 /* Main.storyboard */,
 				12BA952B253D278300B1A4B4 /* Assets.xcassets */,
 				12BA952D253D278300B1A4B4 /* LaunchScreen.storyboard */,
@@ -74,6 +82,24 @@
 				12BA9531253D278300B1A4B4 /* main.m */,
 			);
 			path = YWMGitDemo;
+			sourceTree = "<group>";
+		};
+		12E17458253D2AEC00E5E9B3 /* 001 */ = {
+			isa = PBXGroup;
+			children = (
+				12E1745C253D2BDD00E5E9B3 /* YWMPerson001.h */,
+				12E1745D253D2BDD00E5E9B3 /* YWMPerson001.m */,
+			);
+			name = 001;
+			sourceTree = "<group>";
+		};
+		12E1745B253D2B7700E5E9B3 /* 002 */ = {
+			isa = PBXGroup;
+			children = (
+				12E1745F253D2BEE00E5E9B3 /* YWMPerson002.h */,
+				12E17460253D2BEE00E5E9B3 /* YWMPerson002.m */,
+			);
+			name = 002;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +174,10 @@
 			files = (
 				12BA9527253D278000B1A4B4 /* ViewController.m in Sources */,
 				12BA9521253D278000B1A4B4 /* AppDelegate.m in Sources */,
+				12E1745E253D2BDD00E5E9B3 /* YWMPerson001.m in Sources */,
 				12BA9532253D278300B1A4B4 /* main.m in Sources */,
 				12BA9524253D278000B1A4B4 /* SceneDelegate.m in Sources */,
+				12E17461253D2BEE00E5E9B3 /* YWMPerson002.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
